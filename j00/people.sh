@@ -1,0 +1,1 @@
+ldapsearch objectClass=apple-user | grep uid | grep -v dn | grep -v uidNumber | cut -d : -f2
