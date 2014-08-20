@@ -19,7 +19,7 @@ char	**tab_x_y(char *str, char **carre)
      int y;
      int i;
 
-     x = 0;
+     x = 1;
      y = 0;
      i = 0;
 	 while (str[i] != '\n')
